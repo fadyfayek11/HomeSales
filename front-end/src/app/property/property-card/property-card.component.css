@@ -1,0 +1,40 @@
+.propimage
+{
+  width: 400px;
+  height: 200px;
+  overflow: hidden;
+}
+.card:hover img
+{
+  transform: scale(1.2,1.2);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  opacity: .5;
+}
+.card img
+{
+  transform: scale(1,1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+
+}
+.image-card-warpper
+{
+  overflow: hidden;
+  position: relative;
+}
+.member-icon
+{
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+  right: 0;
+  margin-right : auto;
+  margin-left: auto;
+}
+.image-card-warpper:hover .member-icon{
+  bottom: 0;
+}
+.animation{
+  transition:all 0.2s ease-in-out;
+}

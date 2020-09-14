@@ -1,0 +1,63 @@
+[
+  {
+    "Id": 1 ,
+    "SelesFalg": 1,
+    "Name" : "Fady's house",
+    "Type" : "Villa" ,
+    "Price": 3000,
+    "Image": "prop-1"
+  },
+  {
+    "Id": 2 ,
+    "SelesFalg": 2,
+    "Name" : "Mame's house",
+    "Type" : "House" ,
+    "Price": 2500,
+    "Image": "prop-2"
+  },
+  {
+    "Id": 3 ,
+    "SelesFalg": 1,
+    "Name" : "Bab's house",
+    "Type" : "Department" ,
+    "Price": 600
+  },
+  {
+    "Id": 4 ,
+    "SelesFalg": 2,
+    "Name" : "Mariem's house",
+    "Type" : "House" ,
+    "Price": 300,
+    "Image": "prop-3"
+  },
+  {
+    "Id": 5 ,
+    "SelesFalg": 1,
+    "Name" : "Fady's house",
+    "Type" : "Villa" ,
+    "Price": 3000
+  },
+  {
+    "Id": 6 ,
+    "SelesFalg": 2,
+    "Name" : "Mame's house",
+    "Type" : "House" ,
+    "Price": 2500,
+    "Image": "prop-4"
+  },
+  {
+    "Id": 7 ,
+    "SelesFalg": 1,
+    "Name" : "Bab's house",
+    "Type" : "Department" ,
+    "Price": 600
+  },
+  {
+    "Id": 8 ,
+    "SelesFalg": 1,
+    "Name" : "Mariem's house",
+    "Type" : "House" ,
+    "Price": 300,
+    "Image": "prop-3"
+  }
+]

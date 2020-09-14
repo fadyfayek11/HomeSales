@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="image-card-warpper">
+    <img *ngIf="property.Image" class="card-img-top propimage mx-auto d-block" src="assets/images/{{property.Image}}.jpg" alt="Card image cap">
+    <img *ngIf="!property.Image" class="card-img-top propimage mx-auto d-block" src="assets/images/image.png" alt="Card image cap">
+
+    <ul class="list-inline text-center member-icon animation">
+      <li class="list-inline-item">
+        <button class="btn btn-dark" routerLink="/details/{{property.Id}}"><i class="fas fa-comments"></i></button>
+      </li>
+      <li class="list-inline-item">
+        <button class="btn btn-warning"><i class="fas fa-phone"></i></button>
+      </li>
+    </ul>
+  </div>
+  <div class="card-body">
+     <h1>{{property.Name}}</h1>
+     <h3>{{property.Type}}</h3>
+     <h3>{{property.Price}}</h3>
+  </div>
+</div>
+
+
